@@ -1,0 +1,13 @@
+prefect
+google-cloud-bigquery
+pandas-gbq
+websockets
+clearml
+scikit-learn
+pandas
+numpy
+fastapi
+uvicorn
+streamlit
+python-dotenv
+pytest
