@@ -6,3 +6,4 @@ pandas
 python-dotenv
 joblib
 scikit-learn
+db-dtypes
