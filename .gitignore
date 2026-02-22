@@ -16,3 +16,10 @@ data/
 # OS
 .DS_Store
 Thumbs.db
+
+#config
+configs/
+*.pkl
+.env
+venv/
+__pycache__/
