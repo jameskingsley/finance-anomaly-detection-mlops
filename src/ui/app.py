@@ -89,13 +89,13 @@ while True:
                     hovermode="x unified"
                 )
 
-                # --- FIX: Added unique key using timestamp ---
+                # unique key using timestamp 
                 chart_key = f"chart_{SYMBOL}_{time.time()}"
                 st.plotly_chart(fig, use_container_width=True, key=chart_key)
 
                 if not df_anomalies.empty:
                     st.subheader("Incident Log")
-                    st.table(df_anomalies[['timestamp_str', 'price', 'price_change']].tail(5))
+                    st.table(df_anomalies[['timestamp', 'price', 'price_change']].tail(5))
                 else:
                     st.success(f" Market Stable: No anomalies detected.")
 
