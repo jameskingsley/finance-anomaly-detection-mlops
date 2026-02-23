@@ -7,3 +7,4 @@ python-dotenv
 joblib
 scikit-learn
 db-dtypes
+google-cloud-bigquery-storage
