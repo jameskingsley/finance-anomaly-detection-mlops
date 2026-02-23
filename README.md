@@ -3,9 +3,7 @@
 A production-grade MLOps pipeline designed to detect financial anomalies in real-time cryptocurrency data. This project demonstrates a complete machine learning lifecycle, from automated data engineering to model orchestration and live dashboarding.
 
 ### Live Demo
-* Web Dashboard: Link to your Streamlit UI
-
-* API Documentation: Link to your Render API
+* Web Dashboard: (https://finance-anomaly-detection-mlops-wtwuzqrxwdmd3jkucfpbhs.streamlit.app/)
 
 ## Tech Stack
 Data Engineering: Python, WebSockets, Google BigQuery.
