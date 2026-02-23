@@ -35,7 +35,7 @@ st.title(" Real-Time Finance Anomaly Detection")
 
 # Sidebar 
 st.sidebar.header(" Control Panel")
-API_URL = st.sidebar.text_input("FastAPI Endpoint", "http://127.0.0.1:8000")
+API_URL = st.sidebar.text_input("FastAPI Endpoint", "https://finance-anomaly-detection-mlops.onrender.com/detect")
 REFRESH_RATE = st.sidebar.slider("Refresh Interval (s)", 2, 60, 5)
 SYMBOL = st.sidebar.selectbox("Market Symbol", ["BTC-USD", "ETH-USD"])
 
