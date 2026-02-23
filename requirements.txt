@@ -11,3 +11,6 @@ uvicorn
 streamlit
 python-dotenv
 pytest
+requests
+pandas
+plotly
